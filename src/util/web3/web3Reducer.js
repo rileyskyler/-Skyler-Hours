@@ -9,7 +9,7 @@ const web3Reducer = (state = initialState, action) => {
       web3Instance: action.payload.web3Instance
     })
   }
-
+  console.log(state)
   return state
 }
 
