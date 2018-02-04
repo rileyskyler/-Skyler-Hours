@@ -1,9 +1,13 @@
-pragma solidity ^0.4.2;
+pragma solidity ^0.4.4;
 
-contract SkylerHours is Ownable{
+import './zeppelin/ownership/Ownable.sol';
+
+
+contract SkylerHours is Ownable {
 
     struct hourToken {
        bool unredeemed;
+       string name;
     }
     
     mapping (bytes32 => hourToken) public hourTokens;
