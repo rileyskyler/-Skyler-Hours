@@ -25,9 +25,8 @@ class App extends Component {
       this.setState({
         web3: results.web3
       })
-
       // Instantiate contract once web3 provided.
-      this.instantiateContract()
+        this.instantiateContract()
     })
     .catch(() => {
       console.log('Error finding web3.')
@@ -45,7 +44,6 @@ class App extends Component {
     const contract = require('truffle-contract')
     const skylerHours = contract(SkylerHoursContract)
     skylerHours.setProvider(this.state.web3.currentProvider)
-    console.log(this.state.web3.personal.getListAccounts)
     // Declaring this for later so we can chain functions on skylerHours.
     var skylerHoursInstance
 
@@ -68,7 +66,6 @@ class App extends Component {
     })
   }
   
-
   render() {
     return (
       <div className="App">
