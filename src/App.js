@@ -1,20 +1,18 @@
 import React, { Component } from 'react'
 import SkylerHoursContract from '../build/contracts/SkylerHours.json'
 import getWeb3 from './utils/getWeb3'
-import keygen from 'keygen';
-import './css/oswald.css'
-import './css/open-sans.css'
-import './css/pure-min.css'
-import './App.css'
+import keygen from 'keygen'
 
 class App extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      storageValue: 0,
+      tokenIsValid: '',
       web3: null,
-      keygen: ''
+      keygen: 'jj',
+      accounts: [],
+      skylerHoursInstance: {}
     }
   }
 
@@ -34,7 +32,7 @@ class App extends Component {
     .catch(() => {
       console.log('Error finding web3.')
     })
-    this.setState({keygen: keygen.url()})
+    // this.setState({keygen: keygen.url()})
   }
   
   instantiateContract() {
@@ -55,20 +53,21 @@ class App extends Component {
     this.state.web3.eth.getAccounts((error, accounts) => {
       skylerHours.deployed().then((instance) => {
         skylerHoursInstance = instance
-
-        // Stores a given value, 5 by default.
-        return skylerHoursInstance.createToken(this.state.web3.fromAscii(this.state.keygen), {from: accounts[0]})
-      }).then((result) => {
-        console.log(result)
-        // Get the value from the contract to prove it worked.
-        return skylerHoursInstance.checkToken(this.state.web3.fromAscii(this.state.keygen))
-      }).then((result) => {
-        console.log(result)
-        // Update state with the result.
-        return this.setState({ storageValue: result + '' })
+        this.setState({skylerHoursInstance, accounts})
       })
     })
   }
+
+  createToken() {
+    this.state.skylerHoursInstance.createToken(this.state.web3.fromAscii(this.state.keygen), {from: this.state.accounts[0], gas: 3000000})
+    .then((result)=> {
+      console.log(result)
+      this.state.skylerHoursInstance.checkToken(this.state.web3.fromAscii(this.state.keygen), {from: this.state.accounts[0]}).then((result) =>  {
+        this.setState({tokenIsValid: result + ''})
+      }) 
+    })
+  }
+  
 
   render() {
     return (
@@ -81,9 +80,12 @@ class App extends Component {
           <div className="pure-g">
             <div className="pure-u-1-1">
               <span>This is the keygen: {this.state.keygen}</span>
-              <p>The token is: {this.state.storageValue}</p>
+              <p>The token is: {this.state.tokenIsValid}</p>
             </div>
             <div>
+              <span>Key:</span>
+              <input placeholder='key'/>
+              <button onClick={() => this.createToken()}>Here</button>
             </div>
           </div>
         </main>
