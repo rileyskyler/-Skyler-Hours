@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import SkylerHoursContract from '../build/contracts/SkylerHours.json'
 import getWeb3 from './utils/getWeb3'
 import keygen from 'keygen'
+import './App.css'
+import './min.css'
 
 class App extends Component {
   constructor(props) {
@@ -60,7 +62,6 @@ class App extends Component {
   }
 
   inventToken() {
-
     const fromAscii = this.state.web3.fromAscii
     const tokenName = fromAscii(this.state.tokenName)
     const account = this.state.accounts[0]
@@ -85,8 +86,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <nav className="navbar pure-menu pure-menu-horizontal">
-          <h1><input value={this.state.tokenName} onChange={(e) => this.setState({tokenName: e.target.value})}/><span>Hours</span></h1>
+        <nav className="">
+          <h1><input value={this.state.tokenName} onChange={(e) => this.setState({tokenName: e.target.value})}/>Hours</h1>
         </nav>
 
         <main className="container">
