@@ -9,10 +9,11 @@ contract SkylerHours  {
         bytes32 name;
         mapping (bytes32 => bool) tokens;
     }
-    
+
     mapping (bytes32 => user) users;
-    
+
     function inventToken(bytes32 _name) public {
+        // require(users[_name].owner == false);
         users[_name].owner = msg.sender;
     }
 

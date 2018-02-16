@@ -10,9 +10,10 @@ class App extends Component {
     this.state = {
       tokenIsValid: '',
       web3: null,
-      keygen: 'jj',
+      key: '',
       accounts: [],
-      skylerHoursInstance: {}
+      skylerHoursInstance: {},
+      tokenName: 'Skyler'
     }
   }
 
@@ -52,39 +53,47 @@ class App extends Component {
       skylerHours.deployed().then((instance) => {
         skylerHoursInstance = instance
         this.setState({skylerHoursInstance, accounts})
+        console.log(this.state.skylerHoursInstance)
+        
       })
     })
   }
 
-  createToken() {
-    this.state.skylerHoursInstance.createToken(this.state.web3.fromAscii(this.state.keygen), {from: this.state.accounts[0], gas: 3000000})
-    .then((result)=> {
-      console.log(result)
-      this.state.skylerHoursInstance.checkToken(this.state.web3.fromAscii(this.state.keygen), {from: this.state.accounts[0]}).then((result) =>  {
-        this.setState({tokenIsValid: result + ''})
-      }) 
-    })
+  inventToken() {
+
+    const fromAscii = this.state.web3.fromAscii
+    const tokenName = fromAscii(this.state.tokenName)
+    const account = this.state.accounts[0]
+    this.state.skylerHoursInstance.inventToken(tokenName, {from: account}).then((r)=> console.log(r))
+  }
+
+  mintToken() {
+    const fromAscii = this.state.web3.fromAscii
+    const tokenName = fromAscii(this.state.tokenName)
+    const account = this.state.accounts[0]
+    this.setState({key: keygen.url()})
+    this.state.skylerHoursInstance.mintToken(tokenName, "this.state.key", {from: account})
+  }
+
+  checkToken() {
+    const fromAscii = this.state.web3.fromAscii
+    const tokenName = fromAscii(this.state.tokenName)
+    const account = this.state.accounts[0]
+    this.state.skylerHoursInstance.checkToken.call(tokenName, "this.state.key", {from: account}).then((result) => console.log(result))
   }
   
   render() {
     return (
       <div className="App">
         <nav className="navbar pure-menu pure-menu-horizontal">
-            <a href="#" className="pure-menu-heading pure-menu-link">Truffle Box</a>
+          <h1><input value={this.state.tokenName} onChange={(e) => this.setState({tokenName: e.target.value})}/><span>Hours</span></h1>
         </nav>
 
         <main className="container">
-          <div className="pure-g">
-            <div className="pure-u-1-1">
-              <span>This is the keygen: {this.state.keygen}</span>
-              <p>The token is: {this.state.tokenIsValid}</p>
-            </div>
-            <div>
-              <span>Key:</span>
-              <input placeholder='key'/>
-              <button onClick={() => this.createToken()}>Here</button>
-            </div>
-          </div>
+          <button onClick={() => this.inventToken()}>Invent</button>
+          <button onClick={() => this.mintToken()}>Mint</button>
+          <button onClick={() => this.checkToken()}>Check</button>
+          <span>{this.state.key}</span>
         </main>
       </div>
     );
