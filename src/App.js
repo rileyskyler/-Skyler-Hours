@@ -65,7 +65,7 @@ class App extends Component {
     const fromAscii = this.state.web3.fromAscii
     const tokenName = fromAscii(this.state.tokenName)
     const account = this.state.accounts[0]
-    this.state.skylerHoursInstance.inventToken(tokenName, {from: account}).then((r)=> console.log(r))
+    this.state.skylerHoursInstance.inventToken(tokenName, {from: account}).catch((r)=> console.log(r)).then((result) => console.log(result))
   }
 
   mintToken() {
