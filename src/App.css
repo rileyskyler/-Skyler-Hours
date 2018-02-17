@@ -9,13 +9,16 @@ body {
 nav {
   height: 50px;
   background: white;
-  border-bottom: black 1px; 
+  border-bottom: black 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 input {
   border: 0;
   outline: 0;
-  width: 100px;
   background: transparent;
   border-bottom: 1px solid black;
   text-align: right;
@@ -39,4 +42,13 @@ h1 {
 
 textarea:focus, input:focus{
   outline: none;
+}
+
+.sidebar {
+  height: 100%;
+  width: 30%;
+  background: teal;
+  display: flex;
+  flex-direction: column;
+ 
 }
