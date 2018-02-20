@@ -1,3 +1,4 @@
-# SkylerHours
+# ChainHours
+_Ethereum blockchain tokens for sharing an hour of your time with someone._
 
-A proof of concept for printable tickets which can be reedemed in a React front-end for a free hour of [Skyler's] time.
+## Background
