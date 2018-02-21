@@ -11,19 +11,19 @@ contract SkylerHours  {
         mapping (bytes32 => bool) tokens;
     }
 
-    mapping (bytes32 => user) users;
+    mapping (bytes32 =>   user) users;
 
-    function inventToken(bytes32 _name) public {
+    function inventToken(bytes32 _name) public returns(address) {
         // require(users[_name].owner == 0);
         users[_name].owner = msg.sender;
+        return users[_name].owner;
     }
 
     function mintToken(bytes32 _name, bytes32 _rand) public {
-        // require(users[_name].owner != 0);
+        // require(users[_name].owner == msg.sender)
         bytes32 key = keccak256(_rand);
         users[_name].tokens[key] = true;
         users[_name].tokenList.push(key);
-        
     }
     
     function getTokenList(bytes32 _name) public view returns(bytes32[]){

@@ -62,16 +62,18 @@ class App extends Component {
   }
 
   inventToken() {
-    this.state.skylerHoursInstance.inventToken(this.state.web3.fromAscii("SkylerHours"), {from: this.state.accounts[0]}).then((result) => console.log(result)).then(() => this.getTokenList())
+    this.state.skylerHoursInstance.inventToken.call(this.state.web3.fromAscii("SkylerHours"), {from: this.state.accounts[0]}).then((result) => {
+      console.log(result)
+    })
   }
 
   mintToken() {
     const key = keygen.url()
     this.setState({key})
     console.log(key)
-    this.state.skylerHoursInstance.inventToken(this.state.web3.fromAscii('SkylerHours'), this.state.web3.fromAscii(this.state.key), {from: this.state.accounts[0]}).then((result) => {
+    this.state.skylerHoursInstance.mintToken(this.state.web3.fromAscii("SkylerHours"), this.state.web3.fromAscii("Key"), {from: this.state.accounts[0]}).then((result) => {
       console.log(result)
-      this.getTokenList()
+      // this.getTokenList()
     })
   }
   
@@ -81,16 +83,8 @@ class App extends Component {
     })
   }
 
-
-
-
-        // this.state.skylerHoursInstance.mintToken(tokenName, this.state.key, {from: account}).then((result) => console.log(this.state.key))
   checkToken() {
-    // const fromAscii = this.state.web3.fromAscii
-    // const account = this.state.accounts[0]
-    // const keygener = keygen.url()
-    // console.log(keygener)
-    // this.state.skylerHoursInstance.checkToken.call(this.state.web3.from(''), this.state.web3.from(''), {from: account}).then((result) => console.log(result))
+    this.state.skylerHoursInstance.checkToken.call(this.state.web3.fromAscii("SkylerHours"), this.state.web3.fromAscii("Key"), {from: this.state.accounts[0]}).then((result) => console.log(result))
   }
   
   render() {
@@ -99,18 +93,17 @@ class App extends Component {
         <nav className="">
           <h1><input style={{width: this.state.tokenName.length * 13}}value={this.state.tokenName} onChange={(e) => {
             this.setState({tokenName: e.target.value})
-          }}
-            
-            />Hours</h1>
+          }}/>Hours</h1>
+          <span>{this.state.key}</span>
         </nav>
         <div className="sidebar">
           {this.state.key}
           <button onClick={() => this.inventToken()}>Invent</button>
           <button onClick={() => this.mintToken()}>Mint</button>
           <button onClick={() => this.checkToken()}>Check</button>
+          <button onClick={() => this.getTokenList()}>Get Token List</button>
         </div>
         <main className="container">
-          <span>{this.state.key}</span>
         </main>
       </div>
     );
