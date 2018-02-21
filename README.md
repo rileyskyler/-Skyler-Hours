@@ -15,7 +15,7 @@ Empirically, the market value for an hour of someones time does not equate among
 
 Aside from the intention to become a currency I see value in having an immutable way to share an hour of my time - any way I please.
 
-I think the best way to do this on an immutable distributed ledger where a given hour can be created and redeemed only once. From there I'll let people decide how they wish to use it.
+I think the best way to do this on an immutable distributed ledger where a given hour can be created and redeemed only once. From there I'll let people decide how they want to use it.
 
 ## Architectural Considerations
 ...
