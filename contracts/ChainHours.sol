@@ -2,7 +2,7 @@ pragma solidity ^0.4.4;
 
 // import './zeppelin/ownership/Ownable.sol';
 
-contract SkylerHours  {
+contract ChainHours  {
 
     struct user {
         address owner;
@@ -20,7 +20,7 @@ contract SkylerHours  {
     }
 
     function mintToken(bytes32 _name, bytes32 _rand) public {
-        // require(users[_name].owner == msg.sender)
+        // require(users[_name].owner == msg.sender);
         bytes32 key = keccak256(_rand);
         users[_name].tokens[key] = true;
         users[_name].tokenList.push(key);

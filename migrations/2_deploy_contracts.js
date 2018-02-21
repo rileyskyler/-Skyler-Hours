@@ -1,9 +1,9 @@
 const Ownable = artifacts.require("./zeppelin/ownership/Ownable.sol");
-const SkylerHours = artifacts.require("./SkylerHours.sol");
+const ChainHours = artifacts.require("./ChainHours.sol");
 
 
 module.exports = function(deployer) {
   deployer.deploy(Ownable);
-  deployer.link(Ownable, SkylerHours);
-  deployer.deploy(SkylerHours);
+  deployer.link(Ownable, ChainHours);
+  deployer.deploy(ChainHours);
 };

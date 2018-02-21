@@ -19,4 +19,3 @@ I think the best way to do this on an immutable distributed ledger where a given
 
 ## Architectural Considerations
 ...
-

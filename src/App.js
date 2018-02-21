@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import SkylerHoursContract from '../build/contracts/SkylerHours.json'
+import ChainHoursContract from '../build/contracts/ChainHours.json'
 import getWeb3 from './utils/getWeb3'
 import keygen from 'keygen'
 import './App.css'
-import './min.css'
+
 
 class App extends Component {
   constructor(props) {
@@ -47,7 +47,7 @@ class App extends Component {
      * state management library, but for convenience I've placed them here.
      */
     const contract = require('truffle-contract')
-    const skylerHours = contract(SkylerHoursContract)
+    const skylerHours = contract(ChainHoursContract)
     skylerHours.setProvider(this.state.web3.currentProvider)
     // Declaring this for later so we can chain functions on skylerHours.
     var skylerHoursInstance
@@ -62,7 +62,7 @@ class App extends Component {
   }
 
   inventToken() {
-    this.state.skylerHoursInstance.inventToken.call(this.state.web3.fromAscii("SkylerHours"), {from: this.state.accounts[0]}).then((result) => {
+    this.state.skylerHoursInstance.inventToken.call(this.state.web3.fromAscii("ChainHours"), {from: this.state.accounts[0]}).then((result) => {
       console.log(result)
     })
   }
@@ -71,20 +71,20 @@ class App extends Component {
     const key = keygen.url()
     this.setState({key})
     console.log(key)
-    this.state.skylerHoursInstance.mintToken(this.state.web3.fromAscii("SkylerHours"), this.state.web3.fromAscii("Key"), {from: this.state.accounts[0]}).then((result) => {
+    this.state.skylerHoursInstance.mintToken(this.state.web3.fromAscii("ChainHours"), this.state.web3.fromAscii("Key"), {from: this.state.accounts[0]}).then((result) => {
       console.log(result)
       // this.getTokenList()
     })
   }
   
   getTokenList() {
-    this.state.skylerHoursInstance.getTokenList.call(this.state.web3.fromAscii("SkylerHours"), {from: this.state.accounts[0]}).then((result) => {
+    this.state.skylerHoursInstance.getTokenList.call(this.state.web3.fromAscii("ChainHours"), {from: this.state.accounts[0]}).then((result) => {
       console.log(result)
     })
   }
 
   checkToken() {
-    this.state.skylerHoursInstance.checkToken.call(this.state.web3.fromAscii("SkylerHours"), this.state.web3.fromAscii("Key"), {from: this.state.accounts[0]}).then((result) => console.log(result))
+    this.state.skylerHoursInstance.checkToken.call(this.state.web3.fromAscii("ChainHours"), this.state.web3.fromAscii("Key"), {from: this.state.accounts[0]}).then((result) => console.log(result))
   }
   
   render() {

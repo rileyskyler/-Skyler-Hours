@@ -1,5 +1,5 @@
 {
-  "contractName": "SkylerHours",
+  "contractName": "ChainHours",
   "abi": [
     {
       "constant": false,
@@ -81,18 +81,18 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6105858061001e6000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630912b7aa1461006757806347d3e24f1461009b57806374ba31ca14610117578063f5c1281c1461017e575b600080fd5b341561007257600080fd5b610099600480803560001916906020019091908035600019169060200190919050506101ca565b005b34156100a657600080fd5b6100c0600480803560001916906020019091905050610301565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156101035780820151818401526020810190506100e8565b505050509050019250505060405180910390f35b341561012257600080fd5b61013c600480803560001916906020019091905050610380565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018957600080fd5b6101b060048080356000191690602001909190803560001916906020019091905050610484565b604051808215151515815260200191505060405180910390f35b60003373ffffffffffffffffffffffffffffffffffffffff16600080856000191660001916815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561024357600080fd5b8160405180826000191660001916815260200191505060405180910390209050600160008085600019166000191681526020019081526020016000206003016000836000191660001916815260200190815260200160002060006101000a81548160ff021916908315150217905550600080846000191660001916815260200190815260200160002060020180548060010182816102e191906104f4565b916000526020600020900160008390919091509060001916905550505050565b610309610520565b600080836000191660001916815260200190815260200160002060020180548060200260200160405190810160405280929190818152602001828054801561037457602002820191906000526020600020905b8154600019168152602001906001019080831161035c575b50505050509050919050565b600080600080846000191660001916815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415156103e357600080fd5b33600080846000191660001916815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600080836000191660001916815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b600080826040518082600019166000191681526020019150506040518091039020905060008085600019166000191681526020019081526020016000206003016000826000191660001916815260200190815260200160002060009054906101000a900460ff1691505092915050565b81548183558181151161051b5781836000526020600020918201910161051a9190610534565b5b505050565b602060405190810160405280600081525090565b61055691905b8082111561055257600081600090555060010161053a565b5090565b905600a165627a7a723058207e596eac1230a43546e1f3a3d3b8a52ff1c76b6afc350074c98bd63f54863b390029",
-  "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630912b7aa1461006757806347d3e24f1461009b57806374ba31ca14610117578063f5c1281c1461017e575b600080fd5b341561007257600080fd5b610099600480803560001916906020019091908035600019169060200190919050506101ca565b005b34156100a657600080fd5b6100c0600480803560001916906020019091905050610301565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156101035780820151818401526020810190506100e8565b505050509050019250505060405180910390f35b341561012257600080fd5b61013c600480803560001916906020019091905050610380565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018957600080fd5b6101b060048080356000191690602001909190803560001916906020019091905050610484565b604051808215151515815260200191505060405180910390f35b60003373ffffffffffffffffffffffffffffffffffffffff16600080856000191660001916815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561024357600080fd5b8160405180826000191660001916815260200191505060405180910390209050600160008085600019166000191681526020019081526020016000206003016000836000191660001916815260200190815260200160002060006101000a81548160ff021916908315150217905550600080846000191660001916815260200190815260200160002060020180548060010182816102e191906104f4565b916000526020600020900160008390919091509060001916905550505050565b610309610520565b600080836000191660001916815260200190815260200160002060020180548060200260200160405190810160405280929190818152602001828054801561037457602002820191906000526020600020905b8154600019168152602001906001019080831161035c575b50505050509050919050565b600080600080846000191660001916815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415156103e357600080fd5b33600080846000191660001916815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600080836000191660001916815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b600080826040518082600019166000191681526020019150506040518091039020905060008085600019166000191681526020019081526020016000206003016000826000191660001916815260200190815260200160002060009054906101000a900460ff1691505092915050565b81548183558181151161051b5781836000526020600020918201910161051a9190610534565b5b505050565b602060405190810160405280600081525090565b61055691905b8082111561055257600081600090555060010161053a565b5090565b905600a165627a7a723058207e596eac1230a43546e1f3a3d3b8a52ff1c76b6afc350074c98bd63f54863b390029",
-  "sourceMap": "72:934:1:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "72:934:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;473:237;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;720:113;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;282:185:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;843:160;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;473:237;590:11;569:10;547:32;;:5;:12;553:5;547:12;;;;;;;;;;;;;;;;;:18;;;;;;;;;;;;:32;;;539:41;;;;;;;;614:5;604:16;;;;;;;;;;;;;;;;;;;;;;;;590:30;;657:4;630:5;:12;636:5;630:12;;;;;;;;;;;;;;;;;:19;;:24;650:3;630:24;;;;;;;;;;;;;;;;;;:31;;;;;;;;;;;;;;;;;;671:5;:12;677:5;671:12;;;;;;;;;;;;;;;;;:22;;:32;;;;;;;;;;;:::i;:::-;;;;;;;;;;699:3;671:32;;;;;;;;;;;;473:237;;;:::o;720:113::-;777:9;;:::i;:::-;804:5;:12;810:5;804:12;;;;;;;;;;;;;;;;;:22;;797:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;720:113;;;:::o;282:185::-;333:7;382:1;360:5;:12;366:5;360:12;;;;;;;;;;;;;;;;;:18;;;;;;;;;;;;:23;;;352:32;;;;;;;;415:10;394:5;:12;400:5;394:12;;;;;;;;;;;;;;;;;:18;;;:31;;;;;;;;;;;;;;;;;;442:5;:12;448:5;442:12;;;;;;;;;;;;;;;;;:18;;;;;;;;;;;;435:25;;282:185;;;:::o;843:160::-;913:4;927:11;951:5;941:16;;;;;;;;;;;;;;;;;;;;;;;;927:30;;972:5;:12;978:5;972:12;;;;;;;;;;;;;;;;;:19;;:24;992:3;972:24;;;;;;;;;;;;;;;;;;;;;;;;;;;965:31;;843:160;;;;;:::o;72:934::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.4.4;\n\n// import './zeppelin/ownership/Ownable.sol';\n\ncontract SkylerHours  {\n\n    struct user {\n        address owner;\n        bytes32 name;\n        bytes32[] tokenList;\n        mapping (bytes32 => bool) tokens;\n    }\n\n    mapping (bytes32 =>   user) users;\n\n    function inventToken(bytes32 _name) public returns(address) {\n        require(users[_name].owner == 0);\n        users[_name].owner = msg.sender;\n        return users[_name].owner;\n    }\n\n    function mintToken(bytes32 _name, bytes32 _rand) public {\n        require(users[_name].owner == msg.sender);\n        bytes32 key = keccak256(_rand);\n        users[_name].tokens[key] = true;\n        users[_name].tokenList.push(key);\n    }\n    \n    function getTokenList(bytes32 _name) public view returns(bytes32[]){\n        return users[_name].tokenList;\n    }\n    \n    function checkToken(bytes32 _name, bytes32 _rand) public view returns(bool) {\n      bytes32 key = keccak256(_rand);\n      return users[_name].tokens[key];\n    }\n\n}",
-  "sourcePath": "/Users/rileyskyler/projects/Skyler-Hours/contracts/SkylerHours.sol",
+  "bytecode": "0x6060604052341561000f57600080fd5b6104ad8061001e6000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630912b7aa1461006757806347d3e24f1461009b57806374ba31ca14610117578063f5c1281c1461017e575b600080fd5b341561007257600080fd5b610099600480803560001916906020019091908035600019169060200190919050506101ca565b005b34156100a657600080fd5b6100c060048080356000191690602001909190505061028a565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156101035780820151818401526020810190506100e8565b505050509050019250505060405180910390f35b341561012257600080fd5b61013c600480803560001916906020019091905050610309565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018957600080fd5b6101b0600480803560001916906020019091908035600019169060200190919050506103ac565b604051808215151515815260200191505060405180910390f35b60008160405180826000191660001916815260200191505060405180910390209050600160008085600019166000191681526020019081526020016000206003016000836000191660001916815260200190815260200160002060006101000a81548160ff0219169083151502179055506000808460001916600019168152602001908152602001600020600201805480600101828161026a919061041c565b916000526020600020900160008390919091509060001916905550505050565b610292610448565b60008083600019166000191681526020019081526020016000206002018054806020026020016040519081016040528092919081815260200182805480156102fd57602002820191906000526020600020905b815460001916815260200190600101908083116102e5575b50505050509050919050565b600033600080846000191660001916815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600080836000191660001916815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b600080826040518082600019166000191681526020019150506040518091039020905060008085600019166000191681526020019081526020016000206003016000826000191660001916815260200190815260200160002060009054906101000a900460ff1691505092915050565b81548183558181151161044357818360005260206000209182019101610442919061045c565b5b505050565b602060405190810160405280600081525090565b61047e91905b8082111561047a576000816000905550600101610462565b5090565b905600a165627a7a72305820de07f45b465020fe29e5d0928c838d9f318028c27d3590b408d7d4d691d9d62c0029",
+  "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630912b7aa1461006757806347d3e24f1461009b57806374ba31ca14610117578063f5c1281c1461017e575b600080fd5b341561007257600080fd5b610099600480803560001916906020019091908035600019169060200190919050506101ca565b005b34156100a657600080fd5b6100c060048080356000191690602001909190505061028a565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156101035780820151818401526020810190506100e8565b505050509050019250505060405180910390f35b341561012257600080fd5b61013c600480803560001916906020019091905050610309565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561018957600080fd5b6101b0600480803560001916906020019091908035600019169060200190919050506103ac565b604051808215151515815260200191505060405180910390f35b60008160405180826000191660001916815260200191505060405180910390209050600160008085600019166000191681526020019081526020016000206003016000836000191660001916815260200190815260200160002060006101000a81548160ff0219169083151502179055506000808460001916600019168152602001908152602001600020600201805480600101828161026a919061041c565b916000526020600020900160008390919091509060001916905550505050565b610292610448565b60008083600019166000191681526020019081526020016000206002018054806020026020016040519081016040528092919081815260200182805480156102fd57602002820191906000526020600020905b815460001916815260200190600101908083116102e5575b50505050509050919050565b600033600080846000191660001916815260200190815260200160002060000160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600080836000191660001916815260200190815260200160002060000160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b600080826040518082600019166000191681526020019150506040518091039020905060008085600019166000191681526020019081526020016000206003016000826000191660001916815260200190815260200160002060009054906101000a900460ff1691505092915050565b81548183558181151161044357818360005260206000209182019101610442919061045c565b5b505050565b602060405190810160405280600081525090565b61047e91905b8082111561047a576000816000905550600101610462565b5090565b905600a165627a7a72305820de07f45b465020fe29e5d0928c838d9f318028c27d3590b408d7d4d691d9d62c0029",
+  "sourceMap": "72:939:0:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "72:939:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;475:240;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;725:113;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:2;8:100;;;99:1;94:3;90;84:5;80:1;75:3;71;64:6;52:2;49:1;45:3;40:15;;8:100;;;12:14;3:109;;;;;;;;;;;;;;;;;281:188:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;848:160;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;475:240;595:11;619:5;609:16;;;;;;;;;;;;;;;;;;;;;;;;595:30;;662:4;635:5;:12;641:5;635:12;;;;;;;;;;;;;;;;;:19;;:24;655:3;635:24;;;;;;;;;;;;;;;;;;:31;;;;;;;;;;;;;;;;;;676:5;:12;682:5;676:12;;;;;;;;;;;;;;;;;:22;;:32;;;;;;;;;;;:::i;:::-;;;;;;;;;;704:3;676:32;;;;;;;;;;;;475:240;;;:::o;725:113::-;782:9;;:::i;:::-;809:5;:12;815:5;809:12;;;;;;;;;;;;;;;;;:22;;802:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;725:113;;;:::o;281:188::-;332:7;417:10;396:5;:12;402:5;396:12;;;;;;;;;;;;;;;;;:18;;;:31;;;;;;;;;;;;;;;;;;444:5;:12;450:5;444:12;;;;;;;;;;;;;;;;;:18;;;;;;;;;;;;437:25;;281:188;;;:::o;848:160::-;918:4;932:11;956:5;946:16;;;;;;;;;;;;;;;;;;;;;;;;932:30;;977:5;:12;983:5;977:12;;;;;;;;;;;;;;;;;:19;;:24;997:3;977:24;;;;;;;;;;;;;;;;;;;;;;;;;;;970:31;;848:160;;;;;:::o;72:939::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;:::o;:::-;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.4;\n\n// import './zeppelin/ownership/Ownable.sol';\n\ncontract ChainHours  {\n\n    struct user {\n        address owner;\n        bytes32 name;\n        bytes32[] tokenList;\n        mapping (bytes32 => bool) tokens;\n    }\n\n    mapping (bytes32 =>   user) users;\n\n    function inventToken(bytes32 _name) public returns(address) {\n        // require(users[_name].owner == 0);\n        users[_name].owner = msg.sender;\n        return users[_name].owner;\n    }\n\n    function mintToken(bytes32 _name, bytes32 _rand) public {\n        // require(users[_name].owner == msg.sender);\n        bytes32 key = keccak256(_rand);\n        users[_name].tokens[key] = true;\n        users[_name].tokenList.push(key);\n    }\n    \n    function getTokenList(bytes32 _name) public view returns(bytes32[]){\n        return users[_name].tokenList;\n    }\n    \n    function checkToken(bytes32 _name, bytes32 _rand) public view returns(bool) {\n      bytes32 key = keccak256(_rand);\n      return users[_name].tokens[key];\n    }\n\n}",
+  "sourcePath": "/Users/rileyskyler/projects/Skyler-Hours/contracts/ChainHours.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/Users/rileyskyler/projects/Skyler-Hours/contracts/SkylerHours.sol",
+      "absolutePath": "/Users/rileyskyler/projects/Skyler-Hours/contracts/ChainHours.sol",
       "exportedSymbols": {
-        "SkylerHours": [
-          183
+        "ChainHours": [
+          107
         ]
       }
     },
@@ -106,9 +106,9 @@
             ".4"
           ]
         },
-        "id": 58,
+        "id": 1,
         "name": "PragmaDirective",
-        "src": "0:23:1"
+        "src": "0:23:0"
       },
       {
         "attributes": {
@@ -122,17 +122,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            183
+            107
           ],
-          "name": "SkylerHours",
-          "scope": 184
+          "name": "ChainHours",
+          "scope": 108
         },
         "children": [
           {
             "attributes": {
-              "canonicalName": "SkylerHours.user",
+              "canonicalName": "ChainHours.user",
               "name": "user",
-              "scope": 183,
+              "scope": 107,
               "visibility": "public"
             },
             "children": [
@@ -140,7 +140,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "owner",
-                  "scope": 70,
+                  "scope": 13,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "address",
@@ -153,20 +153,20 @@
                       "name": "address",
                       "type": "address"
                     },
-                    "id": 59,
+                    "id": 2,
                     "name": "ElementaryTypeName",
-                    "src": "123:7:1"
+                    "src": "122:7:0"
                   }
                 ],
-                "id": 60,
+                "id": 3,
                 "name": "VariableDeclaration",
-                "src": "123:13:1"
+                "src": "122:13:0"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "name",
-                  "scope": 70,
+                  "scope": 13,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bytes32",
@@ -179,20 +179,20 @@
                       "name": "bytes32",
                       "type": "bytes32"
                     },
-                    "id": 61,
+                    "id": 4,
                     "name": "ElementaryTypeName",
-                    "src": "146:7:1"
+                    "src": "145:7:0"
                   }
                 ],
-                "id": 62,
+                "id": 5,
                 "name": "VariableDeclaration",
-                "src": "146:12:1"
+                "src": "145:12:0"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "tokenList",
-                  "scope": 70,
+                  "scope": 13,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bytes32[] storage pointer",
@@ -211,25 +211,25 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 63,
+                        "id": 6,
                         "name": "ElementaryTypeName",
-                        "src": "168:7:1"
+                        "src": "167:7:0"
                       }
                     ],
-                    "id": 64,
+                    "id": 7,
                     "name": "ArrayTypeName",
-                    "src": "168:9:1"
+                    "src": "167:9:0"
                   }
                 ],
-                "id": 65,
+                "id": 8,
                 "name": "VariableDeclaration",
-                "src": "168:19:1"
+                "src": "167:19:0"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "tokens",
-                  "scope": 70,
+                  "scope": 13,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "mapping(bytes32 => bool)",
@@ -247,49 +247,49 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 66,
+                        "id": 9,
                         "name": "ElementaryTypeName",
-                        "src": "206:7:1"
+                        "src": "205:7:0"
                       },
                       {
                         "attributes": {
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 67,
+                        "id": 10,
                         "name": "ElementaryTypeName",
-                        "src": "217:4:1"
+                        "src": "216:4:0"
                       }
                     ],
-                    "id": 68,
+                    "id": 11,
                     "name": "Mapping",
-                    "src": "197:25:1"
+                    "src": "196:25:0"
                   }
                 ],
-                "id": 69,
+                "id": 12,
                 "name": "VariableDeclaration",
-                "src": "197:32:1"
+                "src": "196:32:0"
               }
             ],
-            "id": 70,
+            "id": 13,
             "name": "StructDefinition",
-            "src": "101:135:1"
+            "src": "100:135:0"
           },
           {
             "attributes": {
               "constant": false,
               "name": "users",
-              "scope": 183,
+              "scope": 107,
               "stateVariable": true,
               "storageLocation": "default",
-              "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
+              "type": "mapping(bytes32 => struct ChainHours.user storage ref)",
               "value": null,
               "visibility": "internal"
             },
             "children": [
               {
                 "attributes": {
-                  "type": "mapping(bytes32 => struct SkylerHours.user storage ref)"
+                  "type": "mapping(bytes32 => struct ChainHours.user storage ref)"
                 },
                 "children": [
                   {
@@ -297,30 +297,30 @@
                       "name": "bytes32",
                       "type": "bytes32"
                     },
-                    "id": 71,
+                    "id": 14,
                     "name": "ElementaryTypeName",
-                    "src": "251:7:1"
+                    "src": "250:7:0"
                   },
                   {
                     "attributes": {
                       "contractScope": null,
                       "name": "user",
-                      "referencedDeclaration": 70,
-                      "type": "struct SkylerHours.user storage pointer"
+                      "referencedDeclaration": 13,
+                      "type": "struct ChainHours.user storage pointer"
                     },
-                    "id": 72,
+                    "id": 15,
                     "name": "UserDefinedTypeName",
-                    "src": "264:4:1"
+                    "src": "263:4:0"
                   }
                 ],
-                "id": 73,
+                "id": 16,
                 "name": "Mapping",
-                "src": "242:27:1"
+                "src": "241:27:0"
               }
             ],
-            "id": 74,
+            "id": 17,
             "name": "VariableDeclaration",
-            "src": "242:33:1"
+            "src": "241:33:0"
           },
           {
             "attributes": {
@@ -332,7 +332,7 @@
               ],
               "name": "inventToken",
               "payable": false,
-              "scope": 183,
+              "scope": 107,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -344,7 +344,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_name",
-                      "scope": 104,
+                      "scope": 38,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -357,19 +357,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 75,
+                        "id": 18,
                         "name": "ElementaryTypeName",
-                        "src": "303:7:1"
+                        "src": "302:7:0"
                       }
                     ],
-                    "id": 76,
+                    "id": 19,
                     "name": "VariableDeclaration",
-                    "src": "303:13:1"
+                    "src": "302:13:0"
                   }
                 ],
-                "id": 77,
+                "id": 20,
                 "name": "ParameterList",
-                "src": "302:15:1"
+                "src": "301:15:0"
               },
               {
                 "children": [
@@ -377,7 +377,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 104,
+                      "scope": 38,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -390,165 +390,22 @@
                           "name": "address",
                           "type": "address"
                         },
-                        "id": 78,
+                        "id": 21,
                         "name": "ElementaryTypeName",
-                        "src": "333:7:1"
+                        "src": "332:7:0"
                       }
                     ],
-                    "id": 79,
+                    "id": 22,
                     "name": "VariableDeclaration",
-                    "src": "333:7:1"
+                    "src": "332:7:0"
                   }
                 ],
-                "id": 80,
+                "id": 23,
                 "name": "ParameterList",
-                "src": "332:9:1"
+                "src": "331:9:0"
               },
               {
                 "children": [
-                  {
-                    "children": [
-                      {
-                        "attributes": {
-                          "argumentTypes": null,
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": false,
-                          "isStructConstructorCall": false,
-                          "lValueRequested": false,
-                          "names": [
-                            null
-                          ],
-                          "type": "tuple()",
-                          "type_conversion": false
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "argumentTypes": [
-                                {
-                                  "typeIdentifier": "t_bool",
-                                  "typeString": "bool"
-                                }
-                              ],
-                              "overloadedDeclarations": [
-                                null
-                              ],
-                              "referencedDeclaration": 239,
-                              "type": "function (bool) pure",
-                              "value": "require"
-                            },
-                            "id": 81,
-                            "name": "Identifier",
-                            "src": "352:7:1"
-                          },
-                          {
-                            "attributes": {
-                              "argumentTypes": null,
-                              "commonType": {
-                                "typeIdentifier": "t_address",
-                                "typeString": "address"
-                              },
-                              "isConstant": false,
-                              "isLValue": false,
-                              "isPure": false,
-                              "lValueRequested": false,
-                              "operator": "==",
-                              "type": "bool"
-                            },
-                            "children": [
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "isConstant": false,
-                                  "isLValue": true,
-                                  "isPure": false,
-                                  "lValueRequested": false,
-                                  "member_name": "owner",
-                                  "referencedDeclaration": 60,
-                                  "type": "address"
-                                },
-                                "children": [
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": null,
-                                      "isConstant": false,
-                                      "isLValue": true,
-                                      "isPure": false,
-                                      "lValueRequested": false,
-                                      "type": "struct SkylerHours.user storage ref"
-                                    },
-                                    "children": [
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 74,
-                                          "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
-                                          "value": "users"
-                                        },
-                                        "id": 82,
-                                        "name": "Identifier",
-                                        "src": "360:5:1"
-                                      },
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 76,
-                                          "type": "bytes32",
-                                          "value": "_name"
-                                        },
-                                        "id": 83,
-                                        "name": "Identifier",
-                                        "src": "366:5:1"
-                                      }
-                                    ],
-                                    "id": 84,
-                                    "name": "IndexAccess",
-                                    "src": "360:12:1"
-                                  }
-                                ],
-                                "id": 85,
-                                "name": "MemberAccess",
-                                "src": "360:18:1"
-                              },
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "hexvalue": "30",
-                                  "isConstant": false,
-                                  "isLValue": false,
-                                  "isPure": true,
-                                  "lValueRequested": false,
-                                  "subdenomination": null,
-                                  "token": "number",
-                                  "type": "int_const 0",
-                                  "value": "0"
-                                },
-                                "id": 86,
-                                "name": "Literal",
-                                "src": "382:1:1"
-                              }
-                            ],
-                            "id": 87,
-                            "name": "BinaryOperation",
-                            "src": "360:23:1"
-                          }
-                        ],
-                        "id": 88,
-                        "name": "FunctionCall",
-                        "src": "352:32:1"
-                      }
-                    ],
-                    "id": 89,
-                    "name": "ExpressionStatement",
-                    "src": "352:32:1"
-                  },
                   {
                     "children": [
                       {
@@ -570,7 +427,7 @@
                               "isPure": false,
                               "lValueRequested": true,
                               "member_name": "owner",
-                              "referencedDeclaration": 60,
+                              "referencedDeclaration": 3,
                               "type": "address"
                             },
                             "children": [
@@ -581,7 +438,7 @@
                                   "isLValue": true,
                                   "isPure": false,
                                   "lValueRequested": false,
-                                  "type": "struct SkylerHours.user storage ref"
+                                  "type": "struct ChainHours.user storage ref"
                                 },
                                 "children": [
                                   {
@@ -590,13 +447,13 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 74,
-                                      "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
+                                      "referencedDeclaration": 17,
+                                      "type": "mapping(bytes32 => struct ChainHours.user storage ref)",
                                       "value": "users"
                                     },
-                                    "id": 90,
+                                    "id": 24,
                                     "name": "Identifier",
-                                    "src": "394:5:1"
+                                    "src": "396:5:0"
                                   },
                                   {
                                     "attributes": {
@@ -604,23 +461,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 76,
+                                      "referencedDeclaration": 19,
                                       "type": "bytes32",
                                       "value": "_name"
                                     },
-                                    "id": 91,
+                                    "id": 25,
                                     "name": "Identifier",
-                                    "src": "400:5:1"
+                                    "src": "402:5:0"
                                   }
                                 ],
-                                "id": 92,
+                                "id": 26,
                                 "name": "IndexAccess",
-                                "src": "394:12:1"
+                                "src": "396:12:0"
                               }
                             ],
-                            "id": 93,
+                            "id": 27,
                             "name": "MemberAccess",
-                            "src": "394:18:1"
+                            "src": "396:18:0"
                           },
                           {
                             "attributes": {
@@ -640,32 +497,32 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 236,
+                                  "referencedDeclaration": 217,
                                   "type": "msg",
                                   "value": "msg"
                                 },
-                                "id": 94,
+                                "id": 28,
                                 "name": "Identifier",
-                                "src": "415:3:1"
+                                "src": "417:3:0"
                               }
                             ],
-                            "id": 95,
+                            "id": 29,
                             "name": "MemberAccess",
-                            "src": "415:10:1"
+                            "src": "417:10:0"
                           }
                         ],
-                        "id": 96,
+                        "id": 30,
                         "name": "Assignment",
-                        "src": "394:31:1"
+                        "src": "396:31:0"
                       }
                     ],
-                    "id": 97,
+                    "id": 31,
                     "name": "ExpressionStatement",
-                    "src": "394:31:1"
+                    "src": "396:31:0"
                   },
                   {
                     "attributes": {
-                      "functionReturnParameters": 80
+                      "functionReturnParameters": 23
                     },
                     "children": [
                       {
@@ -676,7 +533,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "member_name": "owner",
-                          "referencedDeclaration": 60,
+                          "referencedDeclaration": 3,
                           "type": "address"
                         },
                         "children": [
@@ -687,7 +544,7 @@
                               "isLValue": true,
                               "isPure": false,
                               "lValueRequested": false,
-                              "type": "struct SkylerHours.user storage ref"
+                              "type": "struct ChainHours.user storage ref"
                             },
                             "children": [
                               {
@@ -696,13 +553,13 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 74,
-                                  "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
+                                  "referencedDeclaration": 17,
+                                  "type": "mapping(bytes32 => struct ChainHours.user storage ref)",
                                   "value": "users"
                                 },
-                                "id": 98,
+                                "id": 32,
                                 "name": "Identifier",
-                                "src": "442:5:1"
+                                "src": "444:5:0"
                               },
                               {
                                 "attributes": {
@@ -710,38 +567,38 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 76,
+                                  "referencedDeclaration": 19,
                                   "type": "bytes32",
                                   "value": "_name"
                                 },
-                                "id": 99,
+                                "id": 33,
                                 "name": "Identifier",
-                                "src": "448:5:1"
+                                "src": "450:5:0"
                               }
                             ],
-                            "id": 100,
+                            "id": 34,
                             "name": "IndexAccess",
-                            "src": "442:12:1"
+                            "src": "444:12:0"
                           }
                         ],
-                        "id": 101,
+                        "id": 35,
                         "name": "MemberAccess",
-                        "src": "442:18:1"
+                        "src": "444:18:0"
                       }
                     ],
-                    "id": 102,
+                    "id": 36,
                     "name": "Return",
-                    "src": "435:25:1"
+                    "src": "437:25:0"
                   }
                 ],
-                "id": 103,
+                "id": 37,
                 "name": "Block",
-                "src": "342:125:1"
+                "src": "341:128:0"
               }
             ],
-            "id": 104,
+            "id": 38,
             "name": "FunctionDefinition",
-            "src": "282:185:1"
+            "src": "281:188:0"
           },
           {
             "attributes": {
@@ -753,7 +610,7 @@
               ],
               "name": "mintToken",
               "payable": false,
-              "scope": 183,
+              "scope": 107,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -765,7 +622,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_name",
-                      "scope": 145,
+                      "scope": 69,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -778,20 +635,20 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 105,
+                        "id": 39,
                         "name": "ElementaryTypeName",
-                        "src": "492:7:1"
+                        "src": "494:7:0"
                       }
                     ],
-                    "id": 106,
+                    "id": 40,
                     "name": "VariableDeclaration",
-                    "src": "492:13:1"
+                    "src": "494:13:0"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_rand",
-                      "scope": 145,
+                      "scope": 69,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -804,19 +661,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 107,
+                        "id": 41,
                         "name": "ElementaryTypeName",
-                        "src": "507:7:1"
+                        "src": "509:7:0"
                       }
                     ],
-                    "id": 108,
+                    "id": 42,
                     "name": "VariableDeclaration",
-                    "src": "507:13:1"
+                    "src": "509:13:0"
                   }
                 ],
-                "id": 109,
+                "id": 43,
                 "name": "ParameterList",
-                "src": "491:30:1"
+                "src": "493:30:0"
               },
               {
                 "attributes": {
@@ -825,173 +682,16 @@
                   ]
                 },
                 "children": [],
-                "id": 110,
+                "id": 44,
                 "name": "ParameterList",
-                "src": "529:0:1"
+                "src": "531:0:0"
               },
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "attributes": {
-                          "argumentTypes": null,
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": false,
-                          "isStructConstructorCall": false,
-                          "lValueRequested": false,
-                          "names": [
-                            null
-                          ],
-                          "type": "tuple()",
-                          "type_conversion": false
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "argumentTypes": [
-                                {
-                                  "typeIdentifier": "t_bool",
-                                  "typeString": "bool"
-                                }
-                              ],
-                              "overloadedDeclarations": [
-                                null
-                              ],
-                              "referencedDeclaration": 239,
-                              "type": "function (bool) pure",
-                              "value": "require"
-                            },
-                            "id": 111,
-                            "name": "Identifier",
-                            "src": "539:7:1"
-                          },
-                          {
-                            "attributes": {
-                              "argumentTypes": null,
-                              "commonType": {
-                                "typeIdentifier": "t_address",
-                                "typeString": "address"
-                              },
-                              "isConstant": false,
-                              "isLValue": false,
-                              "isPure": false,
-                              "lValueRequested": false,
-                              "operator": "==",
-                              "type": "bool"
-                            },
-                            "children": [
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "isConstant": false,
-                                  "isLValue": true,
-                                  "isPure": false,
-                                  "lValueRequested": false,
-                                  "member_name": "owner",
-                                  "referencedDeclaration": 60,
-                                  "type": "address"
-                                },
-                                "children": [
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": null,
-                                      "isConstant": false,
-                                      "isLValue": true,
-                                      "isPure": false,
-                                      "lValueRequested": false,
-                                      "type": "struct SkylerHours.user storage ref"
-                                    },
-                                    "children": [
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 74,
-                                          "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
-                                          "value": "users"
-                                        },
-                                        "id": 112,
-                                        "name": "Identifier",
-                                        "src": "547:5:1"
-                                      },
-                                      {
-                                        "attributes": {
-                                          "argumentTypes": null,
-                                          "overloadedDeclarations": [
-                                            null
-                                          ],
-                                          "referencedDeclaration": 106,
-                                          "type": "bytes32",
-                                          "value": "_name"
-                                        },
-                                        "id": 113,
-                                        "name": "Identifier",
-                                        "src": "553:5:1"
-                                      }
-                                    ],
-                                    "id": 114,
-                                    "name": "IndexAccess",
-                                    "src": "547:12:1"
-                                  }
-                                ],
-                                "id": 115,
-                                "name": "MemberAccess",
-                                "src": "547:18:1"
-                              },
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "isConstant": false,
-                                  "isLValue": false,
-                                  "isPure": false,
-                                  "lValueRequested": false,
-                                  "member_name": "sender",
-                                  "referencedDeclaration": null,
-                                  "type": "address"
-                                },
-                                "children": [
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": null,
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
-                                      "referencedDeclaration": 236,
-                                      "type": "msg",
-                                      "value": "msg"
-                                    },
-                                    "id": 116,
-                                    "name": "Identifier",
-                                    "src": "569:3:1"
-                                  }
-                                ],
-                                "id": 117,
-                                "name": "MemberAccess",
-                                "src": "569:10:1"
-                              }
-                            ],
-                            "id": 118,
-                            "name": "BinaryOperation",
-                            "src": "547:32:1"
-                          }
-                        ],
-                        "id": 119,
-                        "name": "FunctionCall",
-                        "src": "539:41:1"
-                      }
-                    ],
-                    "id": 120,
-                    "name": "ExpressionStatement",
-                    "src": "539:41:1"
-                  },
-                  {
                     "attributes": {
                       "assignments": [
-                        122
+                        46
                       ]
                     },
                     "children": [
@@ -999,7 +699,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "key",
-                          "scope": 145,
+                          "scope": 69,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "bytes32",
@@ -1012,14 +712,14 @@
                               "name": "bytes32",
                               "type": "bytes32"
                             },
-                            "id": 121,
+                            "id": 45,
                             "name": "ElementaryTypeName",
-                            "src": "590:7:1"
+                            "src": "595:7:0"
                           }
                         ],
-                        "id": 122,
+                        "id": 46,
                         "name": "VariableDeclaration",
-                        "src": "590:11:1"
+                        "src": "595:11:0"
                       },
                       {
                         "attributes": {
@@ -1047,13 +747,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 230,
+                              "referencedDeclaration": 211,
                               "type": "function () pure returns (bytes32)",
                               "value": "keccak256"
                             },
-                            "id": 123,
+                            "id": 47,
                             "name": "Identifier",
-                            "src": "604:9:1"
+                            "src": "609:9:0"
                           },
                           {
                             "attributes": {
@@ -1061,23 +761,23 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 108,
+                              "referencedDeclaration": 42,
                               "type": "bytes32",
                               "value": "_rand"
                             },
-                            "id": 124,
+                            "id": 48,
                             "name": "Identifier",
-                            "src": "614:5:1"
+                            "src": "619:5:0"
                           }
                         ],
-                        "id": 125,
+                        "id": 49,
                         "name": "FunctionCall",
-                        "src": "604:16:1"
+                        "src": "609:16:0"
                       }
                     ],
-                    "id": 126,
+                    "id": 50,
                     "name": "VariableDeclarationStatement",
-                    "src": "590:30:1"
+                    "src": "595:30:0"
                   },
                   {
                     "children": [
@@ -1110,7 +810,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "tokens",
-                                  "referencedDeclaration": 69,
+                                  "referencedDeclaration": 12,
                                   "type": "mapping(bytes32 => bool)"
                                 },
                                 "children": [
@@ -1121,7 +821,7 @@
                                       "isLValue": true,
                                       "isPure": false,
                                       "lValueRequested": false,
-                                      "type": "struct SkylerHours.user storage ref"
+                                      "type": "struct ChainHours.user storage ref"
                                     },
                                     "children": [
                                       {
@@ -1130,13 +830,13 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 74,
-                                          "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
+                                          "referencedDeclaration": 17,
+                                          "type": "mapping(bytes32 => struct ChainHours.user storage ref)",
                                           "value": "users"
                                         },
-                                        "id": 127,
+                                        "id": 51,
                                         "name": "Identifier",
-                                        "src": "630:5:1"
+                                        "src": "635:5:0"
                                       },
                                       {
                                         "attributes": {
@@ -1144,23 +844,23 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 106,
+                                          "referencedDeclaration": 40,
                                           "type": "bytes32",
                                           "value": "_name"
                                         },
-                                        "id": 128,
+                                        "id": 52,
                                         "name": "Identifier",
-                                        "src": "636:5:1"
+                                        "src": "641:5:0"
                                       }
                                     ],
-                                    "id": 129,
+                                    "id": 53,
                                     "name": "IndexAccess",
-                                    "src": "630:12:1"
+                                    "src": "635:12:0"
                                   }
                                 ],
-                                "id": 130,
+                                "id": 54,
                                 "name": "MemberAccess",
-                                "src": "630:19:1"
+                                "src": "635:19:0"
                               },
                               {
                                 "attributes": {
@@ -1168,18 +868,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 122,
+                                  "referencedDeclaration": 46,
                                   "type": "bytes32",
                                   "value": "key"
                                 },
-                                "id": 131,
+                                "id": 55,
                                 "name": "Identifier",
-                                "src": "650:3:1"
+                                "src": "655:3:0"
                               }
                             ],
-                            "id": 132,
+                            "id": 56,
                             "name": "IndexAccess",
-                            "src": "630:24:1"
+                            "src": "635:24:0"
                           },
                           {
                             "attributes": {
@@ -1194,19 +894,19 @@
                               "type": "bool",
                               "value": "true"
                             },
-                            "id": 133,
+                            "id": 57,
                             "name": "Literal",
-                            "src": "657:4:1"
+                            "src": "662:4:0"
                           }
                         ],
-                        "id": 134,
+                        "id": 58,
                         "name": "Assignment",
-                        "src": "630:31:1"
+                        "src": "635:31:0"
                       }
                     ],
-                    "id": 135,
+                    "id": 59,
                     "name": "ExpressionStatement",
-                    "src": "630:31:1"
+                    "src": "635:31:0"
                   },
                   {
                     "children": [
@@ -1250,7 +950,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "tokenList",
-                                  "referencedDeclaration": 65,
+                                  "referencedDeclaration": 8,
                                   "type": "bytes32[] storage ref"
                                 },
                                 "children": [
@@ -1261,7 +961,7 @@
                                       "isLValue": true,
                                       "isPure": false,
                                       "lValueRequested": false,
-                                      "type": "struct SkylerHours.user storage ref"
+                                      "type": "struct ChainHours.user storage ref"
                                     },
                                     "children": [
                                       {
@@ -1270,13 +970,13 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 74,
-                                          "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
+                                          "referencedDeclaration": 17,
+                                          "type": "mapping(bytes32 => struct ChainHours.user storage ref)",
                                           "value": "users"
                                         },
-                                        "id": 136,
+                                        "id": 60,
                                         "name": "Identifier",
-                                        "src": "671:5:1"
+                                        "src": "676:5:0"
                                       },
                                       {
                                         "attributes": {
@@ -1284,28 +984,28 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 106,
+                                          "referencedDeclaration": 40,
                                           "type": "bytes32",
                                           "value": "_name"
                                         },
-                                        "id": 137,
+                                        "id": 61,
                                         "name": "Identifier",
-                                        "src": "677:5:1"
+                                        "src": "682:5:0"
                                       }
                                     ],
-                                    "id": 138,
+                                    "id": 62,
                                     "name": "IndexAccess",
-                                    "src": "671:12:1"
+                                    "src": "676:12:0"
                                   }
                                 ],
-                                "id": 139,
+                                "id": 63,
                                 "name": "MemberAccess",
-                                "src": "671:22:1"
+                                "src": "676:22:0"
                               }
                             ],
-                            "id": 140,
+                            "id": 64,
                             "name": "MemberAccess",
-                            "src": "671:27:1"
+                            "src": "676:27:0"
                           },
                           {
                             "attributes": {
@@ -1313,33 +1013,33 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 122,
+                              "referencedDeclaration": 46,
                               "type": "bytes32",
                               "value": "key"
                             },
-                            "id": 141,
+                            "id": 65,
                             "name": "Identifier",
-                            "src": "699:3:1"
+                            "src": "704:3:0"
                           }
                         ],
-                        "id": 142,
+                        "id": 66,
                         "name": "FunctionCall",
-                        "src": "671:32:1"
+                        "src": "676:32:0"
                       }
                     ],
-                    "id": 143,
+                    "id": 67,
                     "name": "ExpressionStatement",
-                    "src": "671:32:1"
+                    "src": "676:32:0"
                   }
                 ],
-                "id": 144,
+                "id": 68,
                 "name": "Block",
-                "src": "529:181:1"
+                "src": "531:184:0"
               }
             ],
-            "id": 145,
+            "id": 69,
             "name": "FunctionDefinition",
-            "src": "473:237:1"
+            "src": "475:240:0"
           },
           {
             "attributes": {
@@ -1351,7 +1051,7 @@
               ],
               "name": "getTokenList",
               "payable": false,
-              "scope": 183,
+              "scope": 107,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -1363,7 +1063,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_name",
-                      "scope": 159,
+                      "scope": 83,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1376,19 +1076,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 146,
+                        "id": 70,
                         "name": "ElementaryTypeName",
-                        "src": "742:7:1"
+                        "src": "747:7:0"
                       }
                     ],
-                    "id": 147,
+                    "id": 71,
                     "name": "VariableDeclaration",
-                    "src": "742:13:1"
+                    "src": "747:13:0"
                   }
                 ],
-                "id": 148,
+                "id": 72,
                 "name": "ParameterList",
-                "src": "741:15:1"
+                "src": "746:15:0"
               },
               {
                 "children": [
@@ -1396,7 +1096,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 159,
+                      "scope": 83,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32[] memory",
@@ -1415,30 +1115,30 @@
                               "name": "bytes32",
                               "type": "bytes32"
                             },
-                            "id": 149,
+                            "id": 73,
                             "name": "ElementaryTypeName",
-                            "src": "777:7:1"
+                            "src": "782:7:0"
                           }
                         ],
-                        "id": 150,
+                        "id": 74,
                         "name": "ArrayTypeName",
-                        "src": "777:9:1"
+                        "src": "782:9:0"
                       }
                     ],
-                    "id": 151,
+                    "id": 75,
                     "name": "VariableDeclaration",
-                    "src": "777:9:1"
+                    "src": "782:9:0"
                   }
                 ],
-                "id": 152,
+                "id": 76,
                 "name": "ParameterList",
-                "src": "776:11:1"
+                "src": "781:11:0"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 152
+                      "functionReturnParameters": 76
                     },
                     "children": [
                       {
@@ -1449,7 +1149,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "member_name": "tokenList",
-                          "referencedDeclaration": 65,
+                          "referencedDeclaration": 8,
                           "type": "bytes32[] storage ref"
                         },
                         "children": [
@@ -1460,7 +1160,7 @@
                               "isLValue": true,
                               "isPure": false,
                               "lValueRequested": false,
-                              "type": "struct SkylerHours.user storage ref"
+                              "type": "struct ChainHours.user storage ref"
                             },
                             "children": [
                               {
@@ -1469,13 +1169,13 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 74,
-                                  "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
+                                  "referencedDeclaration": 17,
+                                  "type": "mapping(bytes32 => struct ChainHours.user storage ref)",
                                   "value": "users"
                                 },
-                                "id": 153,
+                                "id": 77,
                                 "name": "Identifier",
-                                "src": "804:5:1"
+                                "src": "809:5:0"
                               },
                               {
                                 "attributes": {
@@ -1483,38 +1183,38 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 147,
+                                  "referencedDeclaration": 71,
                                   "type": "bytes32",
                                   "value": "_name"
                                 },
-                                "id": 154,
+                                "id": 78,
                                 "name": "Identifier",
-                                "src": "810:5:1"
+                                "src": "815:5:0"
                               }
                             ],
-                            "id": 155,
+                            "id": 79,
                             "name": "IndexAccess",
-                            "src": "804:12:1"
+                            "src": "809:12:0"
                           }
                         ],
-                        "id": 156,
+                        "id": 80,
                         "name": "MemberAccess",
-                        "src": "804:22:1"
+                        "src": "809:22:0"
                       }
                     ],
-                    "id": 157,
+                    "id": 81,
                     "name": "Return",
-                    "src": "797:29:1"
+                    "src": "802:29:0"
                   }
                 ],
-                "id": 158,
+                "id": 82,
                 "name": "Block",
-                "src": "787:46:1"
+                "src": "792:46:0"
               }
             ],
-            "id": 159,
+            "id": 83,
             "name": "FunctionDefinition",
-            "src": "720:113:1"
+            "src": "725:113:0"
           },
           {
             "attributes": {
@@ -1526,7 +1226,7 @@
               ],
               "name": "checkToken",
               "payable": false,
-              "scope": 183,
+              "scope": 107,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -1538,7 +1238,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_name",
-                      "scope": 182,
+                      "scope": 106,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1551,20 +1251,20 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 160,
+                        "id": 84,
                         "name": "ElementaryTypeName",
-                        "src": "863:7:1"
+                        "src": "868:7:0"
                       }
                     ],
-                    "id": 161,
+                    "id": 85,
                     "name": "VariableDeclaration",
-                    "src": "863:13:1"
+                    "src": "868:13:0"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_rand",
-                      "scope": 182,
+                      "scope": 106,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1577,19 +1277,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 162,
+                        "id": 86,
                         "name": "ElementaryTypeName",
-                        "src": "878:7:1"
+                        "src": "883:7:0"
                       }
                     ],
-                    "id": 163,
+                    "id": 87,
                     "name": "VariableDeclaration",
-                    "src": "878:13:1"
+                    "src": "883:13:0"
                   }
                 ],
-                "id": 164,
+                "id": 88,
                 "name": "ParameterList",
-                "src": "862:30:1"
+                "src": "867:30:0"
               },
               {
                 "children": [
@@ -1597,7 +1297,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 182,
+                      "scope": 106,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -1610,26 +1310,26 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 165,
+                        "id": 89,
                         "name": "ElementaryTypeName",
-                        "src": "913:4:1"
+                        "src": "918:4:0"
                       }
                     ],
-                    "id": 166,
+                    "id": 90,
                     "name": "VariableDeclaration",
-                    "src": "913:4:1"
+                    "src": "918:4:0"
                   }
                 ],
-                "id": 167,
+                "id": 91,
                 "name": "ParameterList",
-                "src": "912:6:1"
+                "src": "917:6:0"
               },
               {
                 "children": [
                   {
                     "attributes": {
                       "assignments": [
-                        169
+                        93
                       ]
                     },
                     "children": [
@@ -1637,7 +1337,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "key",
-                          "scope": 182,
+                          "scope": 106,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "bytes32",
@@ -1650,14 +1350,14 @@
                               "name": "bytes32",
                               "type": "bytes32"
                             },
-                            "id": 168,
+                            "id": 92,
                             "name": "ElementaryTypeName",
-                            "src": "927:7:1"
+                            "src": "932:7:0"
                           }
                         ],
-                        "id": 169,
+                        "id": 93,
                         "name": "VariableDeclaration",
-                        "src": "927:11:1"
+                        "src": "932:11:0"
                       },
                       {
                         "attributes": {
@@ -1685,13 +1385,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 230,
+                              "referencedDeclaration": 211,
                               "type": "function () pure returns (bytes32)",
                               "value": "keccak256"
                             },
-                            "id": 170,
+                            "id": 94,
                             "name": "Identifier",
-                            "src": "941:9:1"
+                            "src": "946:9:0"
                           },
                           {
                             "attributes": {
@@ -1699,27 +1399,27 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 163,
+                              "referencedDeclaration": 87,
                               "type": "bytes32",
                               "value": "_rand"
                             },
-                            "id": 171,
+                            "id": 95,
                             "name": "Identifier",
-                            "src": "951:5:1"
+                            "src": "956:5:0"
                           }
                         ],
-                        "id": 172,
+                        "id": 96,
                         "name": "FunctionCall",
-                        "src": "941:16:1"
+                        "src": "946:16:0"
                       }
                     ],
-                    "id": 173,
+                    "id": 97,
                     "name": "VariableDeclarationStatement",
-                    "src": "927:30:1"
+                    "src": "932:30:0"
                   },
                   {
                     "attributes": {
-                      "functionReturnParameters": 167
+                      "functionReturnParameters": 91
                     },
                     "children": [
                       {
@@ -1740,7 +1440,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "tokens",
-                              "referencedDeclaration": 69,
+                              "referencedDeclaration": 12,
                               "type": "mapping(bytes32 => bool)"
                             },
                             "children": [
@@ -1751,7 +1451,7 @@
                                   "isLValue": true,
                                   "isPure": false,
                                   "lValueRequested": false,
-                                  "type": "struct SkylerHours.user storage ref"
+                                  "type": "struct ChainHours.user storage ref"
                                 },
                                 "children": [
                                   {
@@ -1760,13 +1460,13 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 74,
-                                      "type": "mapping(bytes32 => struct SkylerHours.user storage ref)",
+                                      "referencedDeclaration": 17,
+                                      "type": "mapping(bytes32 => struct ChainHours.user storage ref)",
                                       "value": "users"
                                     },
-                                    "id": 174,
+                                    "id": 98,
                                     "name": "Identifier",
-                                    "src": "972:5:1"
+                                    "src": "977:5:0"
                                   },
                                   {
                                     "attributes": {
@@ -1774,23 +1474,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 161,
+                                      "referencedDeclaration": 85,
                                       "type": "bytes32",
                                       "value": "_name"
                                     },
-                                    "id": 175,
+                                    "id": 99,
                                     "name": "Identifier",
-                                    "src": "978:5:1"
+                                    "src": "983:5:0"
                                   }
                                 ],
-                                "id": 176,
+                                "id": 100,
                                 "name": "IndexAccess",
-                                "src": "972:12:1"
+                                "src": "977:12:0"
                               }
                             ],
-                            "id": 177,
+                            "id": 101,
                             "name": "MemberAccess",
-                            "src": "972:19:1"
+                            "src": "977:19:0"
                           },
                           {
                             "attributes": {
@@ -1798,43 +1498,43 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 169,
+                              "referencedDeclaration": 93,
                               "type": "bytes32",
                               "value": "key"
                             },
-                            "id": 178,
+                            "id": 102,
                             "name": "Identifier",
-                            "src": "992:3:1"
+                            "src": "997:3:0"
                           }
                         ],
-                        "id": 179,
+                        "id": 103,
                         "name": "IndexAccess",
-                        "src": "972:24:1"
+                        "src": "977:24:0"
                       }
                     ],
-                    "id": 180,
+                    "id": 104,
                     "name": "Return",
-                    "src": "965:31:1"
+                    "src": "970:31:0"
                   }
                 ],
-                "id": 181,
+                "id": 105,
                 "name": "Block",
-                "src": "919:84:1"
+                "src": "924:84:0"
               }
             ],
-            "id": 182,
+            "id": 106,
             "name": "FunctionDefinition",
-            "src": "843:160:1"
+            "src": "848:160:0"
           }
         ],
-        "id": 183,
+        "id": 107,
         "name": "ContractDefinition",
-        "src": "72:934:1"
+        "src": "72:939:0"
       }
     ],
-    "id": 184,
+    "id": 108,
     "name": "SourceUnit",
-    "src": "0:1006:1"
+    "src": "0:1011:0"
   },
   "compiler": {
     "name": "solc",
@@ -1844,9 +1544,9 @@
     "4447": {
       "events": {},
       "links": {},
-      "address": "0xf328c11c4df88d18fcbd30ad38d8b4714f4b33bf"
+      "address": "0x8e4c131b37383e431b9cd0635d3cf9f3f628edae"
     }
   },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-21T18:41:14.443Z"
+  "updatedAt": "2018-02-21T18:46:53.577Z"
 }
