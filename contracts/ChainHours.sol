@@ -14,7 +14,7 @@ contract ChainHours  {
     mapping (bytes32 =>   user) users;
 
     function inventToken(bytes32 _name) public returns(address) {
-        // require(users[_name].owner == 0);
+        require(users[_name].owner == 0);
         users[_name].owner = msg.sender;
         return users[_name].owner;
     }

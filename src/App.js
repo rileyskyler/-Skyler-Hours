@@ -15,7 +15,7 @@ class App extends Component {
       key: '',
       accounts: [],
       tokens: [],
-      skylerHoursInstance: {},
+      chainHoursInstance: {},
       tokenName: 'Skyler'
     }
 
@@ -50,60 +50,62 @@ class App extends Component {
     const skylerHours = contract(ChainHoursContract)
     skylerHours.setProvider(this.state.web3.currentProvider)
     // Declaring this for later so we can chain functions on skylerHours.
-    var skylerHoursInstance
+    var chainHoursInstance
     
     // Get accounts.
     this.state.web3.eth.getAccounts((error, accounts) => {
       skylerHours.deployed().then((instance) => {
-        skylerHoursInstance = instance
-        this.setState({skylerHoursInstance, accounts})
+        chainHoursInstance = instance
+        this.setState({chainHoursInstance, accounts})
       })
     })
   }
 
   inventToken() {
-    this.state.skylerHoursInstance.inventToken.call(this.state.web3.fromAscii("ChainHours"), {from: this.state.accounts[0]}).then((result) => {
+    this.state.chainHoursInstance.inventToken.call(this.state.web3.fromAscii(this.state.tokenName), {from: this.state.accounts[0]}).then((result) => {
       console.log(result)
     })
   }
 
   mintToken() {
-    const key = keygen.url()
-    this.setState({key})
-    console.log(key)
-    this.state.skylerHoursInstance.mintToken(this.state.web3.fromAscii("ChainHours"), this.state.web3.fromAscii("Key"), {from: this.state.accounts[0]}).then((result) => {
-      console.log(result)
-      // this.getTokenList()
+    let key = Promise.resolve(keygen.url())
+    key.then((value) => {
+      console.log(value)
+      this.setState({key})
+      this.state.chainHoursInstance.mintToken(this.state.web3.fromAscii(this.state.tokenName), this.state.web3.fromAscii(this.state.key), {from: this.state.accounts[0]}).then((result) => {
+        console.log(result)
+        // this.getTokenList()
+      })
     })
   }
   
+  checkToken() {
+    this.state.chainHoursInstance.checkToken.call(this.state.web3.fromAscii(this.state.tokenName), this.state.web3.fromAscii(this.state.key), {from: this.state.accounts[0]}).then((result) => console.log(result))
+  }
+  
   getTokenList() {
-    this.state.skylerHoursInstance.getTokenList.call(this.state.web3.fromAscii("ChainHours"), {from: this.state.accounts[0]}).then((result) => {
+    this.state.chainHoursInstance.getTokenList.call(this.state.web3.fromAscii(this.state.tokenName), {from: this.state.accounts[0]}).then((result) => {
       console.log(result)
     })
   }
 
-  checkToken() {
-    this.state.skylerHoursInstance.checkToken.call(this.state.web3.fromAscii("ChainHours"), this.state.web3.fromAscii("Key"), {from: this.state.accounts[0]}).then((result) => console.log(result))
-  }
-  
   render() {
+
     return (
       <div className="App">
         <nav className="">
           <h1><input style={{width: this.state.tokenName.length * 13}}value={this.state.tokenName} onChange={(e) => {
             this.setState({tokenName: e.target.value})
           }}/>Hours</h1>
-          <span>{this.state.key}</span>
         </nav>
         <div className="sidebar">
-          {this.state.key}
-          <button onClick={() => this.inventToken()}>Invent</button>
+          <button style={{color: "pink"}} onClick={() => this.inventToken()}>Invent</button>
           <button onClick={() => this.mintToken()}>Mint</button>
           <button onClick={() => this.checkToken()}>Check</button>
           <button onClick={() => this.getTokenList()}>Get Token List</button>
         </div>
-        <main className="container">
+        <h1>test</h1>
+        <main>
         </main>
       </div>
     );

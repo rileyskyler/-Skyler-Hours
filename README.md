@@ -7,7 +7,7 @@ Around 2012, a handful of [communities](https://en.wikipedia.org/wiki/List_of_co
 Some of which included:
 * Aloha Hours (Hawaii)
 * Mile-high Hours (Denver)
-* Humboldt Hours
+* Humboldt Hours (N. California)
 
 While many of these 'currencies' are inactive for one reason or another (arguably the advent of blockchain), I find the notion interesting and worthy of consideration. The principle is that time is the only scarce resource to any individual.
 
@@ -18,4 +18,4 @@ Aside from the intention to become a currency I see value in having an immutable
 I think the best way to do this on an immutable distributed ledger where a given hour can be created and redeemed only once. From there I'll let people decide how they want to use it.
 
 ## Architectural Considerations
-...
+
