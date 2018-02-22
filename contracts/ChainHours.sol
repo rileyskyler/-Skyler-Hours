@@ -5,23 +5,23 @@ pragma solidity ^0.4.4;
 contract ChainHours  {
 
     struct user {
+        mapping (bytes32 => bool) tokens;
         address owner;
         bytes32 name;
         bytes32[] tokenList;
-        mapping (bytes32 => bool) tokens;
     }
 
-    mapping (bytes32 =>   user) users;
+    mapping (bytes32 => user) users;
 
-    function inventToken(bytes32 _name) public returns(address) {
+    function inventToken(bytes32 _name) public {
         require(users[_name].owner == 0);
         users[_name].owner = msg.sender;
-        return users[_name].owner;
     }
 
     function mintToken(bytes32 _name, bytes32 _rand) public {
-        // require(users[_name].owner == msg.sender);
         bytes32 key = keccak256(_rand);
+        require(users[_name].tokens[key] == false);
+        require(users[_name].owner == msg.sender);
         users[_name].tokens[key] = true;
         users[_name].tokenList.push(key);
     }

@@ -18,4 +18,4 @@ Aside from the intention to become a currency I see value in having an immutable
 I think the best way to do this on an immutable distributed ledger where a given hour can be created and redeemed only once. From there I'll let people decide how they want to use it.
 
 ## Architectural Considerations
-
+...

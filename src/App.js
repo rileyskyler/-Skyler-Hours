@@ -18,7 +18,6 @@ class App extends Component {
       chainHoursInstance: {},
       tokenName: 'Skyler'
     }
-
   }
 
   componentWillMount() {
@@ -61,8 +60,9 @@ class App extends Component {
     })
   }
 
+
   inventToken() {
-    this.state.chainHoursInstance.inventToken.call(this.state.web3.fromAscii(this.state.tokenName), {from: this.state.accounts[0]}).then((result) => {
+    this.state.chainHoursInstance.inventToken(this.state.web3.fromAscii(this.state.tokenName), {from: this.state.accounts[0]}).then((result) => {
       console.log(result)
     })
   }
@@ -89,6 +89,7 @@ class App extends Component {
     })
   }
 
+
   render() {
 
     return (
@@ -99,7 +100,7 @@ class App extends Component {
           }}/>Hours</h1>
         </nav>
         <div className="sidebar">
-          <button style={{color: "pink"}} onClick={() => this.inventToken()}>Invent</button>
+          <button onClick={() => this.inventToken()}>Invent</button>
           <button onClick={() => this.mintToken()}>Mint</button>
           <button onClick={() => this.checkToken()}>Check</button>
           <button onClick={() => this.getTokenList()}>Get Token List</button>
