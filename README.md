@@ -4,7 +4,7 @@ _Ethereum blockchain tokens for sharing an hour of your time with someone._
 ## Background
 Around 2012, a handful of [communities](https://en.wikipedia.org/wiki/List_of_community_currencies_in_the_United_States) in the U.S created [time-based currencies](https://en.wikipedia.org/wiki/Time-based_currency).
 
-Some of which included:
+Some of which include:
 * Aloha Hours (Hawaii)
 * Mile-high Hours (Denver)
 * Humboldt Hours (N. California)
